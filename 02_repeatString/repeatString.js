@@ -1,5 +1,7 @@
 const repeatString = function(stringInut, numOfTimes) {
-    if (numOfTimes < 0){return 'ERROR';}
+    if (numOfTimes < 0){
+        return 'ERROR';
+    }
     var stringOutput = '';
     for (let i = 0; i < numOfTimes; i++) {
         stringOutput += stringInut;
